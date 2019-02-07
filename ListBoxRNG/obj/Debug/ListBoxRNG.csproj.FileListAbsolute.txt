@@ -1,0 +1,12 @@
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\bin\Debug\ListBoxRNG.exe.config
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\bin\Debug\ListBoxRNG.exe
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\bin\Debug\ListBoxRNG.pdb
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\obj\Debug\ListBoxRNG.csprojResolveAssemblyReference.cache
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\obj\Debug\ListBoxRNG.Form1.resources
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\obj\Debug\ListBoxRNG.Properties.Resources.resources
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\obj\Debug\ListBoxRNG.csproj.GenerateResource.Cache
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\obj\Debug\ListBoxRNG.exe
+c:\users\kami\documents\visual studio 2015\Projects\ListBoxRNG\ListBoxRNG\obj\Debug\ListBoxRNG.pdb
+C:\Users\Kami\source\repos\RandomMoviePicker\ListBoxRNG\bin\Debug\ListBoxRNG.exe.config
+C:\Users\Kami\source\repos\RandomMoviePicker\ListBoxRNG\obj\Debug\ListBoxRNG.exe
+C:\Users\Kami\source\repos\RandomMoviePicker\ListBoxRNG\obj\Debug\ListBoxRNG.pdb
