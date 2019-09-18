@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,28 +13,39 @@ namespace ListBoxRNG
 {
     public partial class Form1 : Form
     {
-        string file = @"savedmovies.txt";
+        private string line;
+        const string file = @"savedmovies.txt";
         public Form1()
         {
             InitializeComponent();
-            using (StreamReader sr = new StreamReader(file))
+            try
             {
-                string line;
+            using (StreamReader sr = new StreamReader(file))
                 while ((line = sr.ReadLine()) != null)
                 {
                     listBox.Items.Add(line);
                 }
             }
+            catch (Exception ex)
+            {
+                resultsLabel.Text = "Error: " + ex.ToString();
+            }
         }
 
         private void saveButton_Click(object sender, EventArgs e)
         {
-            StreamWriter sw = new StreamWriter(file);
-            foreach(var item in listBox.Items)
+            try
             {
-                sw.WriteLine(item.ToString());
+                StreamWriter sw = new StreamWriter(file);
+                foreach(var item in listBox.Items)
+                {
+                    sw.WriteLine(item.ToString());
+                }
             }
-            sw.Close();
+            catch (Exception ex)
+            {
+                resultsLabel.Text = "Error: " + ex.ToString();
+            }
         }
 
         private void rngButton_Click(object sender, EventArgs e)
